@@ -1,0 +1,73 @@
+ 
+
+ 
+#container {
+	width: 200px;
+	padding: 8px 8px 20px 8px;
+	margin: 20px auto;
+	background-color: #ABABAB;
+	border-radius: 4px;
+	
+	
+	box-shadow: -3px 3px 7px rgba(0, 0, 0, .6), inset -100px 0px 100px rgba(255, 255, 255, .5);
+}
+
+#display {
+	display: block;
+	margin: 15px auto;
+	height: 42px;
+	width: 174px;
+	padding: 0 10px;
+	border-radius: 4px;
+	 
+  
+}
+
+.button {
+	display: inline-block;
+	margin: 2px;
+	width: 42px;
+	height: 42px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+.mathButtons {
+	margin: 2px 2px 6px 2px;
+	color: #FFF;
+	text-shadow: -1px -1px 0px #44006F;
+	background-color: #434343;
+	 
+	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #2E2E2E;
+}
+
+.digits {
+	color: #181818;
+	text-shadow: 1px 1px 0px #FFF;
+	background-color: #EBEBEB;
+	
+	
+	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #DCDCDC;
+}
+
+.digits:hover,
+.mathButtons:hover,
+#clearButton:hover {
+	cursor: pointer;
+	background-color: #FFBA75;
+	box-shadow: 0px 0px 2px #FFBA75, inset 0px -20px 1px #FF8000;
+
+	
+
+	
+}
+
+#clearButton {
+	color: #FFF;
+	text-shadow: -1px -1px 0px #44006F;
+	background-color: #D20000;
+
+	
+	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #B00000;
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            width: 30%;
+            margin: auto;
+            margin-top: 100px;
+            border: 2px solid;
+            padding: 20px;
+            background-color: rgb(255, 255, 255);
+            
+        }
+        h1{
+            text-align: center;
+        }
+        .fist_details_1{
+            
+             display: grid;
+             grid-template-columns: repeat(1,1fr);
+             padding: 10px;
+             border-radius: 15px 00px 30px 00px;
+             
+        }
+        .fist_details_2{
+            
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            padding: 10px;
+            border-radius: 15px 00px 30px 00px;
+            
+       }
+        input{
+       
+            height: 20px;
+
+           
+            text-align: center;
+            border-radius: 10px;
+        }
+        .fist_details input:nth-child(even){
+            background-color: brown;
+            
+        }
+        .button{
+        
+             margin-top: 30px;
+            text-align: center;
+        }
+        .button :hover{
+           width: 120px;
+            cursor: pointer;
+            border-radius: 10px;
+            color: red;
+        }
+        .footer{
+            text-align: center;
+            margin-top: 20px;
+        }
+        .puspa {
+            border: 2px solid rgba(29, 30, 29, 0.552);
+         padding-left: 10px;
+              
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+          
+           
+            
+        }
+
+        .ram {
+
+            margin-left: 40%;
+        }
+        h2{
+            text-align: center;
+        }
+        .chekbox{
+         
+        }
+
+
+        @media screen and (min-width:280px) and (max-width:480px) {
+            form{
+            width: 90%;
+            margin: auto;
+         
+           
+            padding: 10px;
+            background-color: rgb(177, 181, 164);
+            
+        }
+        h1{
+            text-align: center;
+        }
+        .fist_details_1{
+            
+             display: grid;
+             grid-template-columns: repeat(1,1fr);
+             padding: 10px;
+             border-radius: 15px 00px 30px 00px;
+             background-color: antiquewhite;
+        }
+        .fist_details_2{
+            
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            padding: 10px;
+            border-radius: 15px 00px 30px 00px;
+            background-color: antiquewhite;
+            
+       }
+        input{
+       
+            height: 20px;
+
+           margin: 10px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .fist_details input:nth-child(even){
+            background-color: brown;
+            
+        }
+        .button{
+        
+             margin-top: 30px;
+            text-align: center;
+        }
+        .button :hover{
+           width: 120px;
+            cursor: pointer;
+            border-radius: 10px;
+            color: red;
+        }
+        .footer{
+            text-align: center;
+            margin-top: 20px;
+        }
+        .puspa {
+            border: 2px solid rgba(29, 30, 29, 0.552);
+         padding-left: 10px;
+              
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+          
+           
+            
+        }
+
+        .ram {
+
+            margin-left: 40%;
+        }
+        h2{
+            text-align: center;
+        }
+       
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <form action="">
+            <h1>
+             Registration Form
+            </h1>
+       <fieldset class="fist_details_1">
+        <legend>Details</legend>
+        <label for="">Name</label>
+        <input type="text" name="" id="" placeholder="enter your name">
+        <label for="">Father name</label>
+        <input type="text" name="" id="" placeholder="enter your father name">
+        <label for="">Mother name</label>
+        <input type="text" name="" id="" placeholder="Enter your mother name">
+        <label for="">Email</label>
+        <input type="email" name="" id="" placeholder="enter your Email">
+        <label for="">Date of Birth</label>
+        <input type="date">
+       </fieldset>
+
+       <fieldset class="fist_details_2">
+        <legend>  Address</legend>
+        <label for="">Line 1</label>
+        <input type="text" name="" id="" placeholder=" Street address">
+        <label for="">Line 2</label>
+        <input type="text" name="" id="" placeholder="village name">
+        <label for="">Line 3</label>
+        <input type="text" name=""  placeholder="city name">
+         
+       </fieldset>
+
+       <fieldset class="fist_details_2">
+        <legend>  Docoument detials</legend>
+        <label for="">photo uplod</label>
+        <input type="file" name="" id="" placeholder=" "> 
+        <label for="">Signature</label>
+        <input type="file" name="" id="" placeholder=" ">
+        
+         
+       </fieldset>
+       <h2> DECLERATION</h2>
+
+       <input  type="checkbox" > I hereby declearning that I eill obery all the rules and regulations of the insititution
+        and be fully responsible for violating the rules.
+       <div class="puspa">
+           <div class="sign">
+               <p>....................</p>
+               <p> Student's Signature</p>
+           </div>
+           <div class="ram">
+               <p>....................</p>
+               <p> Authiruzed's Signature</p>
+           </div>
+       </div>
+
+       <div class="button">
+        <button >Register Now</button>
+       </div>
+       <div class="footer"> YOU ARE ALREADY REGISTER <a href="./loginfrom..html">Login here </a>
+       </div>
+       
+        </form>
+    </div>
+   
+</body>
+</html>
